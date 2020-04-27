@@ -9,7 +9,6 @@ public class MinecraftCircle {
         k.nextLine();
         double step = Math.atan(1/radius);
         for (double t = 0; t < 2*Math.PI; t+= step) {
-
             double x = radius*(Math.round((Math.cos(t))*100.0))/100.0;
             double z = radius*(Math.round((Math.sin(t))*100.0))/100.0;
             System.out.println("fill ~"+x+" ~0 ~"+z+" ~"+x+" ~"+y+" ~"+z+" oak_log");
